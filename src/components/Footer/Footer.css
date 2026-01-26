@@ -1,0 +1,212 @@
+/* Footer */
+.footer {
+    background-color: #024e95;
+    color: white;
+    padding: 3rem 2rem 0rem;
+    position: relative;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto 2rem;
+    gap: 15rem;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-logo-section {
+    max-width: 350px;
+}
+
+.footer-logo {
+    width: 200px;
+    margin-bottom: 1rem;
+}
+
+.footer-section h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.footer-section p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    opacity: 0.7;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.footer-icons a {
+    color: white;
+    font-size: 24px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.footer-icons a:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.footer-bottom {
+    background-color: #003d82;
+    padding: 0;
+    text-align: center;
+    margin: 0 -2rem -1rem;
+}
+
+.footer-link {
+    background-color: #0077d4;
+    padding: 0.3rem 0;
+    margin: 0;
+    width: 100%;
+}
+
+.footer-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 0.8rem;   
+}
+
+.footer-rights {
+    font-size: 0.8rem;
+    padding: 1rem 1rem;
+    
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #7eb8e6;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.scroll-to-top:hover {
+    background-color: #5a9ed4;
+    transform: translateY(-3px);
+}
+
+/* Modal de Aviso de Privacidade */
+.privacy-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.privacy-modal {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 2.5rem 3rem;
+  max-width: 450px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  animation: modalFadeIn 0.3s ease;
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.privacy-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid #5eb3e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+}
+
+.privacy-icon i {
+  font-size: 2.5rem;
+  color: #5eb3e6;
+}
+
+.privacy-title {
+  color: #024e95;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.privacy-text {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.privacy-button {
+  background-color: #0088ff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 0.75rem 2.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.privacy-button:hover {
+  background-color: #0077dd;
+  transform: translateY(-2px);
+}
+
+.privacy-button:active {
+  transform: translateY(0);
+}
+

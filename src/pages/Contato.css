@@ -1,0 +1,151 @@
+/* Seção Principal de Contato */
+.contato {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Seção: Título da Página */
+.titulo-contato {
+  margin-top: 65px;
+  text-align: center;
+  padding: 30px;
+  background: linear-gradient(to left, #5db7f3, #014c9b);
+  color: #fff;
+}
+
+.titulo-contato h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.titulo-contato p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+/* Layout de Contato */
+.info-contato {
+  padding: 2.5rem 1rem;
+}
+
+/* Coluna de Cards Sociais */
+.social-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  flex: 1;
+  max-width: 400px;
+}
+
+
+.info-contato .container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.info-contato .container a {
+  text-decoration: none;
+  color: #0056b3;
+}
+
+.info-contato .container a:hover {
+  text-decoration: underline;
+  color: #555;
+}
+
+/* Card: Informações Gerais */
+.info-box {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  background: #ebebeb;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.info-box h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #0056b3;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.info-item {
+  margin-bottom: 1.5rem;
+}
+
+.info-item h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.info-item p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Cards: WhatsApp e Instagram */
+.whatsapp-box,
+.instagram-box {
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  background: #ebebeb;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.whatsapp-box h3,
+.instagram-box h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin: 1rem 0 0.5rem;
+}
+
+.whatsapp-box p,
+.instagram-box p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Imagens dos Cards */
+.whatsapp-box a img,
+.instagram-box a img {
+  width: 80px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-box a img:hover,
+.instagram-box a img:hover {
+  transform: scale(1.1);
+}
+
+/* Hover nos Cards */
+.whatsapp-box:hover,
+.instagram-box:hover {
+  transform: translateY(-5px);
+  background-color: #d4d4d4;
+}

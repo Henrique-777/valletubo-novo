@@ -1,0 +1,173 @@
+/* Container principal da página */
+.sobre-page {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Hero Image Section */
+.empresa-imagem {
+  position: relative;
+  background: url('/assets/img/fabrica.png') center/cover no-repeat;
+  height: 300px;
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 2rem;
+}
+
+.empresa-imagem .overlay {
+  background-color: rgba(34, 116, 224, 0.699);
+  backdrop-filter: blur(4px);
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 8px;
+  max-width: 800px;
+}
+
+.empresa-imagem h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.empresa-imagem p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Sobre Section */
+.sobre {
+  padding: 3rem 0;
+  width: 100%;
+}
+
+.sobre .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.sobre-conteudo {
+  margin-bottom: 2rem;
+}
+
+.sobre h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: left;
+  color: #135caa;
+}
+
+.sobre p {
+  text-align: left;
+  line-height: 1.8;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+/* Valores Section */
+.valores-section {
+  padding: 4rem 0;
+  background-color: #f9f9f9;
+  width: 100%;
+}
+
+.valores-section .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.valores-titulo {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #135caa;
+  margin-bottom: 2rem;
+}
+
+.valores {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Último card ocupa toda a largura automaticamente */
+.valores .card:last-child {
+  grid-column: 1 / -1;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  color: #2576cc;
+  font-weight: 600;
+  margin: 0;
+}
+
+.card img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.card p {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: center;
+  margin: 0;
+}
+
+
+/* Ícones dos Cards */
+.card-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  transition: transform 0.3s ease;
+  background: #2576cc;
+  color: white;
+}
+
+.card:hover .card-icon {
+  transform: scale(1.1);
+}
+
