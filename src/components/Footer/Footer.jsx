@@ -1,10 +1,25 @@
 import { Link } from 'react-router-dom';
+import { HiChevronDoubleUp } from "react-icons/hi";
 import './Footer.css';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 
 const Footer = () => {
   const [showPrivacyModal, setShowPrivacyModal] = useState(false);
+  const [showScrollTop, setShowScrollTop] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => {
+      setShowScrollTop(window.scrollY > 200);
+    };
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    onScroll;
+
+    return () => window.removeEventListener('scroll', onScroll);
+    
+    
+  }, []);
 
   const handlePrivacyClick = (e) => {
     e.preventDefault();
@@ -28,8 +43,8 @@ const Footer = () => {
             <h4>Menu</h4>
             <ul>
               <li><Link to="/sobre">Sobre</Link></li>
-              <li><a href="/produtos">Mangueiras e Conexões</a></li>
-              <li><a href="/irrigacao">Irrigação</a></li>
+              <li><Link to="/CatalogoMangueiras">Mangueiras e Conexões</Link></li>
+              <li><Link to="/CatalogoIrrigacao">Irrigação</Link></li>
             </ul>
           </div>
 
@@ -67,11 +82,18 @@ const Footer = () => {
           </p>
           <p className="footer-rights">© 2026 Valletubo. Todos os direitos reservados.</p>
         </div>
-
-        <button className="scroll-to-top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-          ↑
-        </button>
       </footer>
+
+      {showScrollTop && (
+        <button
+          className="scroll-to-top"
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth'})}
+          aria-label="Voltar ao topo"
+          title="Voltar ao topo"
+        >
+          <HiChevronDoubleUp size={30}/>
+        </button>
+      )}
 
       {/* Modal de Privacidade */}
       {showPrivacyModal && (

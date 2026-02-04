@@ -149,3 +149,419 @@
   transform: translateY(-5px);
   background-color: #d4d4d4;
 }
+
+
+/* MEDIA QUERIES - RESPONSIVIDADE */
+
+/* Tablets e dispositivos médios (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+  .titulo-contato h1 {
+    font-size: 2.2rem;
+  }
+  
+  .titulo-contato p {
+    font-size: 1.1rem;
+  }
+  
+  .info-contato .container {
+    gap: 1.5rem;
+  }
+  
+  .info-box {
+    max-width: 450px;
+  }
+  
+  .social-column {
+    max-width: 380px;
+  }
+}
+
+/* Tablets pequenos (768px) */
+@media screen and (max-width: 768px) {
+  .titulo-contato {
+    margin-top: 55px;
+    padding: 25px 20px;
+  }
+  
+  .titulo-contato h1 {
+    font-size: 2rem;
+    margin-bottom: 0.4rem;
+  }
+  
+  .titulo-contato p {
+    font-size: 1rem;
+    max-width: 90%;
+  }
+  
+  .info-contato {
+    padding: 2rem 1rem;
+  }
+  
+  .info-contato .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .info-box {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .social-column {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .whatsapp-box,
+  .instagram-box {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .info-box h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  .info-item h3 {
+    font-size: 1.1rem;
+  }
+  
+  .info-item p {
+    font-size: 0.95rem;
+  }
+  
+  .whatsapp-box h3,
+  .instagram-box h3 {
+    font-size: 1.4rem;
+  }
+  
+  .whatsapp-box p,
+  .instagram-box p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Smartphones (576px) */
+@media screen and (max-width: 576px) {
+  .titulo-contato {
+    margin-top: 50px;
+    padding: 20px 15px;
+  }
+  
+  .titulo-contato h1 {
+    font-size: 1.8rem;
+  }
+  
+  .titulo-contato p {
+    font-size: 0.95rem;
+  }
+  
+  .info-contato {
+    padding: 1.5rem 0.8rem;
+  }
+  
+  .info-contato .container {
+    gap: 1.2rem;
+  }
+  
+  .info-box,
+  .whatsapp-box,
+  .instagram-box {
+    min-width: 100%;
+    padding: 1.5rem;
+  }
+  
+  .info-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .info-item {
+    margin-bottom: 1.2rem;
+  }
+  
+  .info-item h3 {
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+  }
+  
+  .info-item p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  .whatsapp-box h3,
+  .instagram-box h3 {
+    font-size: 1.3rem;
+    margin: 0.8rem 0 0.4rem;
+  }
+  
+  .whatsapp-box p,
+  .instagram-box p {
+    font-size: 0.9rem;
+  }
+  
+  .whatsapp-box a img,
+  .instagram-box a img {
+    width: 70px;
+  }
+  
+  .social-column {
+    gap: 1.2rem;
+  }
+}
+
+/* Smartphones pequenos (480px) */
+@media screen and (max-width: 480px) {
+  .titulo-contato {
+    margin-top: 4.5rem;
+    padding: 18px 12px;
+  }
+  
+  .titulo-contato h1 {
+    font-size: 1.5rem;
+  }
+  
+  .titulo-contato p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+  
+  .info-contato {
+    padding: 1.2rem 0.6rem;
+  }
+  
+  .info-contato .container {
+    gap: 1rem;
+  }
+  
+  .info-box,
+  .whatsapp-box,
+  .instagram-box {
+    padding: 1.2rem;
+    border-radius: 6px;
+  }
+  
+  .info-box h2 {
+    font-size: 1.4rem;
+  }
+  
+  .info-item {
+    margin-bottom: 1rem;
+  }
+  
+  .info-item h3 {
+    font-size: 0.95rem;
+  }
+  
+  .info-item p {
+    font-size: 0.85rem;
+  }
+  
+  .whatsapp-box h3,
+  .instagram-box h3 {
+    font-size: 1.2rem;
+  }
+  
+  .whatsapp-box p,
+  .instagram-box p {
+    font-size: 0.85rem;
+  }
+  
+  .whatsapp-box a img,
+  .instagram-box a img {
+    width: 65px;
+  }
+  
+  .social-column {
+    gap: 1rem;
+  }
+}
+
+/* Smartphones muito pequenos (360px) */
+@media screen and (max-width: 360px) {
+  .titulo-contato h1 {
+    font-size: 1.4rem;
+  }
+  
+  .titulo-contato p {
+    font-size: 0.85rem;
+  }
+  
+  .info-box,
+  .whatsapp-box,
+  .instagram-box {
+    padding: 1rem;
+  }
+  
+  .info-box h2 {
+    font-size: 1.3rem;
+  }
+  
+  .info-item h3 {
+    font-size: 0.9rem;
+  }
+  
+  .info-item p {
+    font-size: 0.8rem;
+  }
+  
+  .whatsapp-box h3,
+  .instagram-box h3 {
+    font-size: 1.1rem;
+  }
+  
+  .whatsapp-box p,
+  .instagram-box p {
+    font-size: 0.8rem;
+  }
+  
+  .whatsapp-box a img,
+  .instagram-box a img {
+    width: 60px;
+  }
+}
+
+/* Orientação landscape para tablets */
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .titulo-contato {
+    padding: 20px 30px;
+  }
+  
+  .info-contato .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .info-box {
+    flex: 1 1 45%;
+    max-width: 500px;
+  }
+  
+  .social-column {
+    flex: 1 1 45%;
+    max-width: 400px;
+  }
+}
+
+/* Telas muito grandes (1440px+) */
+@media screen and (min-width: 1440px) {
+  .titulo-contato {
+    padding: 40px;
+  }
+  
+  .titulo-contato h1 {
+    font-size: 3rem;
+  }
+  
+  .titulo-contato p {
+    font-size: 1.3rem;
+    max-width: 700px;
+  }
+  
+  .info-contato {
+    padding: 3rem 2rem;
+  }
+  
+  .info-contato .container {
+    max-width: 1400px;
+    gap: 2.5rem;
+  }
+  
+  .info-box {
+    max-width: 550px;
+    padding: 2.5rem;
+  }
+  
+  .social-column {
+    max-width: 450px;
+  }
+  
+  .whatsapp-box,
+  .instagram-box {
+    max-width: 450px;
+    padding: 2.5rem;
+  }
+  
+  .whatsapp-box a img,
+  .instagram-box a img {
+    width: 90px;
+  }
+}
+
+/* Suporte para hover em dispositivos que o suportam */
+@media (hover: hover) and (pointer: fine) {
+  .info-contato .container a:hover {
+    text-decoration: underline;
+    color: #555;
+  }
+  
+  .whatsapp-box a img:hover,
+  .instagram-box a img:hover {
+    transform: scale(1.1);
+  }
+  
+  .whatsapp-box:hover,
+  .instagram-box:hover {
+    transform: translateY(-5px);
+    background-color: #d4d4d4;
+  }
+}
+
+/* Remove animações para usuários que preferem movimento reduzido */
+@media (prefers-reduced-motion: reduce) {
+  .whatsapp-box,
+  .instagram-box,
+  .whatsapp-box a img,
+  .instagram-box a img {
+    transition: none;
+  }
+  
+  .whatsapp-box:hover,
+  .instagram-box:hover,
+  .whatsapp-box a img:hover,
+  .instagram-box a img:hover {
+    transform: none;
+  }
+}
+
+/* Print styles */
+@media print {
+  .contato {
+    overflow-x: visible;
+  }
+  
+  .titulo-contato {
+    background: none;
+    color: black;
+    margin-top: 0;
+  }
+  
+  .info-contato .container {
+    flex-direction: column;
+  }
+  
+  .info-box,
+  .whatsapp-box,
+  .instagram-box {
+    box-shadow: none;
+    border: 1px solid #ddd;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  
+  .whatsapp-box:hover,
+  .instagram-box:hover {
+    transform: none;
+    background-color: #ebebeb;
+  }
+  
+  .whatsapp-box a img,
+  .instagram-box a img {
+    width: 60px;
+  }
+}
+

@@ -5,6 +5,9 @@ import Home from './pages/Home';
 import Sobre from './pages/Sobre';
 import Contato from './pages/Contato';
 import Produtos from './pages/Produtos';
+import CatalogoMangueiras from './pages/CatalogoMangueiras';
+import CatalogoIrrigacao from './pages/CatalogoIrrigacao';
+import ValvulaAutolimpante from './pages/ValvulaAutolimpante';
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/produtos" element={<Produtos />} />
+        <Route path="/catalogoMangueiras" element={<CatalogoMangueiras />} />
+        <Route path="/catalogoIrrigacao" element={<CatalogoIrrigacao />} />
+        <Route path="/valvulaAutolimpante" element={<ValvulaAutolimpante />} />
       </Routes>
       <Footer />
     </Router>

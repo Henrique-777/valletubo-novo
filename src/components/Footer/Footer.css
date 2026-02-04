@@ -109,7 +109,7 @@
     background-color: #7eb8e6;
     color: white;
     border: none;
-    border-radius: 50%;
+    border-radius: 15%;
     width: 50px;
     height: 50px;
     font-size: 1.5rem;
@@ -210,3 +210,370 @@
   transform: translateY(0);
 }
 
+/* MEDIA QUERIES - RESPONSIVIDADE */
+
+/* Tablets e dispositivos médios (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+  .footer-container {
+    gap: 5rem;
+  }
+  
+  .footer-logo-section {
+    max-width: 300px;
+  }
+  
+  .privacy-modal {
+    padding: 2rem 2.5rem;
+    max-width: 400px;
+  }
+  
+  .privacy-title {
+    font-size: 1.75rem;
+  }
+}
+
+/* Tablets pequenos (768px) */
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 2.5rem 1.5rem 0rem;
+  }
+  
+  .footer-container {
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer-section {
+    text-align: center;
+  }
+  
+  .footer-logo-section {
+    max-width: 100%;
+  }
+  
+  .footer-logo {
+    width: 180px;
+    margin: 0 auto 1rem;
+    display: block;
+  }
+  
+  .footer-section h4 {
+    font-size: 1.1rem;
+  }
+  
+  .footer-section p {
+    font-size: 0.9rem;
+  }
+  
+  .footer-icons {
+    justify-content: center;
+  }
+  
+  .footer-bottom {
+    margin: 0 -1.5rem -1rem;
+  }
+  
+  .scroll-to-top {
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    font-size: 1.3rem;
+  }
+  
+  .privacy-modal {
+    padding: 2rem;
+    max-width: 350px;
+  }
+  
+  .privacy-icon {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .privacy-icon i {
+    font-size: 2rem;
+  }
+  
+  .privacy-title {
+    font-size: 1.5rem;
+  }
+  
+  .privacy-text {
+    font-size: 0.95rem;
+  }
+}
+
+/* Smartphones (576px) */
+@media screen and (max-width: 576px) {
+  .footer {
+    padding: 2rem 1rem 0rem;
+  }
+  
+  .footer-container {
+    gap: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-logo {
+    width: 160px;
+  }
+  
+  .footer-section h4 {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .footer-section p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 0.4rem;
+  }
+  
+  .footer-icons a {
+    font-size: 20px;
+  }
+  
+  .footer-bottom {
+    margin: 0 -1rem -1rem;
+  }
+  
+  .footer-link a {
+    font-size: 0.75rem;
+  }
+  
+  .footer-rights {
+    font-size: 0.75rem;
+    padding: 0.8rem 0.5rem;
+  }
+  
+  .scroll-to-top {
+    bottom: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+  
+  .privacy-modal {
+    padding: 1.5rem;
+    max-width: 320px;
+    width: 95%;
+  }
+  
+  .privacy-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+  }
+  
+  .privacy-icon i {
+    font-size: 1.75rem;
+  }
+  
+  .privacy-title {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .privacy-text {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+  
+  .privacy-button {
+    padding: 0.65rem 2rem;
+    font-size: 0.95rem;
+  }
+}
+
+/* Smartphones pequenos (480px) */
+@media screen and (max-width: 480px) {
+  .footer {
+    padding: 1.5rem 0.8rem 0rem;
+  }
+  
+  .footer-container {
+    gap: 1.5rem;
+  }
+  
+  .footer-logo {
+    width: 260px;
+  }
+  
+  .footer-section h4 {
+    font-size: 1rem;
+  }
+  
+  .footer-section p {
+    font-size: 0.8rem;
+  }
+  
+  .footer-section ul li a {
+    font-size: 0.85rem;
+  }
+  
+  .footer-icons {
+    gap: 0.8rem;
+  }
+  
+  .footer-icons a {
+    font-size: 18px;
+  }
+  
+  .footer-bottom {
+    margin: 0 -0.8rem -1rem;
+  }
+  
+  .scroll-to-top {
+    bottom: 12px;
+    right: 12px;
+    width: 38px;
+    height: 38px;
+    font-size: 1.1rem;
+  }
+  
+  .privacy-modal {
+    padding: 1.2rem;
+    max-width: 290px;
+  }
+  
+  .privacy-title {
+    font-size: 1.2rem;
+  }
+  
+  .privacy-text {
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  
+  .privacy-button {
+    padding: 0.6rem 1.8rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Dispositivos muito pequenos (360px) */
+@media screen and (max-width: 360px) {
+  .footer-logo {
+    width: 120px;
+  }
+  
+  .footer-section h4 {
+    font-size: 0.9rem;
+  }
+  
+  .footer-section p,
+  .footer-section ul li a {
+    font-size: 0.75rem;
+  }
+  
+  .footer-icons a {
+    font-size: 16px;
+  }
+  
+  .scroll-to-top {
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+  }
+  
+  .privacy-title {
+    font-size: 1.1rem;
+  }
+}
+
+/* Orientação landscape para tablets */
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .footer-container {
+    flex-direction: row;
+    gap: 3rem;
+  }
+  
+  .footer-section {
+    text-align: left;
+  }
+  
+  .footer-logo {
+    margin: 0 0 1rem 0;
+  }
+  
+  .footer-icons {
+    justify-content: flex-start;
+  }
+}
+
+/* Telas muito grandes (1440px+) */
+@media screen and (min-width: 1440px) {
+  .footer-container {
+    max-width: 1400px;
+    gap: 18rem;
+  }
+  
+  .footer-logo-section {
+    max-width: 400px;
+  }
+}
+
+/* Suporte para hover em dispositivos que o suportam */
+@media (hover: hover) and (pointer: fine) {
+  .footer-section ul li a:hover {
+    opacity: 0.7;
+  }
+  
+  .footer-icons a:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+  
+  .scroll-to-top:hover {
+    background-color: #5a9ed4;
+    transform: translateY(-3px);
+  }
+  
+  .privacy-button:hover {
+    background-color: #0077dd;
+    transform: translateY(-2px);
+  }
+}
+
+/* Remove animações para usuários que preferem movimento reduzido */
+@media (prefers-reduced-motion: reduce) {
+  .footer-section ul li a,
+  .footer-icons a,
+  .scroll-to-top,
+  .privacy-button,
+  .privacy-modal {
+    transition: none;
+    animation: none;
+  }
+  
+  .footer-icons a:hover,
+  .scroll-to-top:hover,
+  .privacy-button:hover {
+    transform: none;
+  }
+}
+
+/* Print styles */
+@media print {
+  .footer {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+  }
+  
+  .footer-bottom {
+    background-color: white;
+  }
+  
+  .scroll-to-top,
+  .privacy-modal-overlay {
+    display: none;
+  }
+}

@@ -43,7 +43,7 @@ const Contato = () => {
                 rel="noopener noreferrer"
               >
                 <img 
-                  src="/assets/img/wpp-img.png" 
+                  src="assets/img/wpp-img.png" 
                   alt="WhatsApp" 
                 />
               </a>
@@ -59,7 +59,7 @@ const Contato = () => {
                 rel="noopener noreferrer"
               >
                 <img 
-                  src="/assets/img/insta-logo.png" 
+                  src="assets/img/insta-logo.png" 
                   alt="Instagram" 
                 />
               </a>

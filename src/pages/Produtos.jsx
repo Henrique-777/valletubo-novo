@@ -17,16 +17,16 @@ const Produtos = () => {
         <div className="container">
           <div className="grid">
             <div className="card">
-              <img src="/assets/img/mangueira-polietileno-1.png" alt="Produto 2" />
+              <img src="assets/img/mangueira-polietileno-1.png" alt="Produto 2" />
               <h3>Mangueiras e Conexões</h3>
               <p>Durabilidade e resistência para qualquer aplicação.</p>
-              <Link to="/catalogo-mangueiras" className="btn">Saiba mais</Link>
+              <Link to="/CatalogoMangueiras" className="btn">Saiba mais</Link>
             </div>
             <div className="card">
-              <img src="/assets/img/joelho-32.png" alt="Produto 3" />
+              <img src="assets/img/joelho-32.png" alt="Produto 3" />
               <h3>Irrigação</h3>
               <p>Ideais para sistemas de irrigação e abastecimento.</p>
-              <Link to="/irrigacao" className="btn">Saiba mais</Link>
+              <Link to="/CatalogoIrrigacao" className="btn">Saiba mais</Link>
             </div>
           </div>
         </div>
