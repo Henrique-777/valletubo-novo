@@ -38,7 +38,7 @@
 .navbar-menu {
   display: flex;
   list-style: none;
-  gap: 2rem;
+  gap: 1rem;
   margin: auto;
   padding: 0;
   align-items: center;
@@ -47,7 +47,7 @@
 .navbar-menu li {
   position: relative;
   margin: 10px;
-  left: 80%;
+  left: 50%;
 }
 
 .navbar-menu a {

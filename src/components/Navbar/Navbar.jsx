@@ -38,6 +38,9 @@ const Navbar = () => {
           <li>
             <Link to="/contato" onClick={() => setMenuOpen(false)}>CONTATO</Link>
           </li>
+          <li>
+            <Link to="/ProdutosLancamento" onClick={() => setMenuOpen(false)}>NOVIDADES</Link>
+          </li>
           <li className={`navbar-dropdown ${dropdownOpen ? 'open' : ''}`}>
             <span onClick={toggleDropdown}>
               PRODUTOS <span className="dropdown-arrow">▼</span>

@@ -7,7 +7,7 @@ import Contato from './pages/Contato';
 import Produtos from './pages/Produtos';
 import CatalogoMangueiras from './pages/CatalogoMangueiras';
 import CatalogoIrrigacao from './pages/CatalogoIrrigacao';
-import ValvulaAutolimpante from './pages/ValvulaAutolimpante';
+import ProdutosLancamento from './pages/ProdutosLancamento';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         <Route path="/produtos" element={<Produtos />} />
         <Route path="/catalogoMangueiras" element={<CatalogoMangueiras />} />
         <Route path="/catalogoIrrigacao" element={<CatalogoIrrigacao />} />
-        <Route path="/valvulaAutolimpante" element={<ValvulaAutolimpante />} />
+        <Route path="/produtosLancamento" element={<ProdutosLancamento />} />
       </Routes>
       <Footer />
     </Router>

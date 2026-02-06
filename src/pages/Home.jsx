@@ -16,7 +16,7 @@ const Home = () => {
   const [slideIndex, setSlideIndex] = useState(0);
   const [slides, setSlides] = useState([]);
 
-  // ✨ NOVO: Modal abre SEMPRE ao carregar a página
+  // Modal abre SEMPRE ao carregar a página
   useEffect(() => {
     // Delay de 500ms para suavizar a abertura
     const timer = setTimeout(() => {
@@ -26,13 +26,13 @@ const Home = () => {
     return () => clearTimeout(timer);
   }, []); // Array vazio = executa apenas no mount (toda vez que a página carregar)
 
-  // ✨ Função para fechar modal promocional (SEM localStorage)
+  // Função para fechar modal promocional
   const fecharModalPromo = () => {
     setModalPromoAberto(false);
     document.body.style.overflow = 'unset';
   };
 
-  // ✨ Fechar modal com tecla ESC
+  // Fechar modal com tecla ESC
   useEffect(() => {
     const handleEsc = (event) => {
       if (event.key === 'Escape' && modalPromoAberto) {
@@ -50,7 +50,7 @@ const Home = () => {
     };
   }, [modalPromoAberto]);
 
-  // Script do Carrossel (EXISTENTE - manter como está)
+  // Script do Carrossel
   useEffect(() => {
     const isMobile = () => window.innerWidth <= 768;
 
@@ -282,7 +282,7 @@ const Home = () => {
                     className="modal-promo-btn-principal"
                     onClick={() => {
                       fecharModalPromo();
-                      navigate('/ValvulaAutolimpante'); // ou URL externa
+                      navigate('/ProdutosLancamento'); // ou URL externa
                       // Para URL externa: window.open('https://...', '_blank');
                     }}
                   >
@@ -382,6 +382,7 @@ const Home = () => {
             <div key={produto.id} className="card">
               <img src={produto.imagem} alt="Mangueira de polietileno" />
               <h3>{produto.nome}</h3>
+              
               <button className="ver-mais-btn" onClick={() => abrirModal(produto)}>
                 VER MAIS
               </button>
@@ -458,6 +459,37 @@ const Home = () => {
         </div>
       )}
 
+      {/* Seção de Lançamentos */}
+      <section className="lancamentos" id="lancamentos">
+        <h2>Lançamentos</h2>
+        <p>Confira as últimas novidades em produtos para irrigação</p>
+        
+        <div className="lancamentos-grid">
+          <div className="lancamento-card">
+            <span className="badge-novo">NOVO</span>
+            <img 
+              src="assets/img/valvula-auto-limpante-anel-liso.png" 
+              alt="Válvula Autolimpante" 
+            />
+            <h3>Válvula Autolimpante</h3>
+            <p>Sistema inteligente de limpeza automática para máxima eficiência</p>
+            <button onClick={() => navigate('/ProdutosLancamento')} className="lancamento-btn">Saiba Mais</button>
+          </div>
+
+          <div className="lancamento-card">
+            <span className="badge-novo">NOVO</span>
+            <img 
+              src="assets/img/tubo-de-comando.png" 
+              alt="Kit Irrigação Completo" 
+            />
+            <h3>Tubo de Comando Para Automação</h3>
+            <p>Solução completa para jardins e hortas residenciais</p>
+            <button onClick={() => navigate('/ProdutosLancamento')} className="lancamento-btn">Saiba Mais</button>
+          </div>
+        </div>
+      </section>
+
+      {/* Seção de Fornecedores */}
       <section className="fornecedores">
         {/* SESSÃO FORNECEDORES */}
         <h2>CONHEÇA NOSSOS FORNECEDORES</h2>
