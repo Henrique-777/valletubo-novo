@@ -466,7 +466,7 @@ const Home = () => {
         
         <div className="lancamentos-grid">
           <div className="lancamento-card">
-            <span className="badge-novo">NOVO</span>
+            <span className="badge-novo">EXCLUSIVO</span>
             <img 
               src="assets/img/valvula-auto-limpante-anel-liso.png" 
               alt="Válvula Autolimpante" 
@@ -477,7 +477,7 @@ const Home = () => {
           </div>
 
           <div className="lancamento-card">
-            <span className="badge-novo">NOVO</span>
+            <span className="badge-novo">EXCLUSIVO</span>
             <img 
               src="assets/img/tubo-de-comando.png" 
               alt="Kit Irrigação Completo" 

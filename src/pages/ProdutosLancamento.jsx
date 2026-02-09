@@ -29,7 +29,7 @@ const ProdutosLancamento = () => {
         "VÁLVULA AUTO LIMPANTE 16MM COM ANEL GARRA",
         "VÁLVULA AUTO LIMPANTE 16MM COM ANEL LISO"
       ],
-      badge: "NOVO"
+      badge: "EXCLUSIVO"
     },
     {
       id: 2,
@@ -41,7 +41,7 @@ const ProdutosLancamento = () => {
       caracteristicas: [
         "TUBO DE COMANDO PARA AUTOMAÇÃO 8MM"
       ],
-      badge: "NOVO"
+      badge: "EXCLUSIVO"
     }
   ];
 
@@ -88,7 +88,7 @@ const ProdutosLancamento = () => {
           <div className="hero-stats">
             <div className="stat-item">
               <span className="stat-numero">2</span>
-              <span className="stat-texto">Novos Produtos</span>
+              <span className="stat-texto">Produtos Exclusivos</span>
             </div>
             <div className="stat-item">
               <span className="stat-numero">100%</span>
@@ -105,7 +105,7 @@ const ProdutosLancamento = () => {
       {/* Seção de Cards de Produtos */}
       <section className="secao-produtos-lancamento">
         <div className="secao-header">
-          <h2>Novos Produtos</h2>
+          <h2>Produtos Exclusivos</h2>
           <p>Explore nossa linha de exclusividades com as mais recentes tecnologias do mercado</p>
         </div>
 
