@@ -16,7 +16,7 @@ const ProdutosLancamento = () => {
     return () => clearTimeout(timer);
   }, []);
 
-  // Dados dos produtos de lançamento
+  // Dados dos produtos Exclusividade
   const produtosLancamento = [
     {
       id: 1,
@@ -81,7 +81,7 @@ const ProdutosLancamento = () => {
         <div className="hero-overlay"></div>
         <div className="hero-conteudo">
           <span className="hero-badge">Novidades 2026</span>
-          <h1 className="hero-titulo">Lançamentos Exclusivos</h1>
+          <h1 className="hero-titulo">Exclusividades</h1>
           <p className="hero-subtitulo">
             Conheça as últimas inovações em sistemas de irrigação com tecnologia de ponta e máxima eficiência
           </p>
@@ -106,7 +106,7 @@ const ProdutosLancamento = () => {
       <section className="secao-produtos-lancamento">
         <div className="secao-header">
           <h2>Novos Produtos</h2>
-          <p>Explore nossa linha de lançamentos com as mais recentes tecnologias do mercado</p>
+          <p>Explore nossa linha de exclusividades com as mais recentes tecnologias do mercado</p>
         </div>
 
         <div className="grid-produtos-lancamento">
@@ -154,7 +154,7 @@ const ProdutosLancamento = () => {
       {/* CTA Final */}
       <section className="cta-lancamento">
         <div className="cta-conteudo">
-          <h3>Interessado em nossos lançamentos?</h3>
+          <h3>Interessado em nossas exclusividades?</h3>
           <p>Entre em contato e saiba mais sobre disponibilidade, preços e condições especiais</p>
           <button onClick={() => navigate('/Contato')} className="btn-cta-principal">Fale Conosco</button>
         </div>

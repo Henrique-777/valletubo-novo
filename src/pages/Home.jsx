@@ -240,7 +240,7 @@ const Home = () => {
               {/* Coluna da direita - Textos, cards e botões */}
               <div className="modal-promo-content-wrapper">
                 <div className="modal-promo-badge">
-                  🌟 LANÇAMENTO EXCLUSIVO
+                  🌟 Exclusividade
                 </div>
 
                 <h2 id="modal-promo-titulo" className="modal-promo-titulo">
@@ -459,9 +459,9 @@ const Home = () => {
         </div>
       )}
 
-      {/* Seção de Lançamentos */}
+      {/* Seção de Exclusividades */}
       <section className="lancamentos" id="lancamentos">
-        <h2>Lançamentos</h2>
+        <h2>Exclusividades</h2>
         <p>Confira as últimas novidades em produtos para irrigação</p>
         
         <div className="lancamentos-grid">

@@ -176,8 +176,7 @@ const CatalogoIrrigacao = () => {
       especificacoes: ['Material: PVC'],
       tamanhos: ['REG. DE ESFERA SOLDA PVC AZUL 25 MM', 'REG. DE ESFERA SOLDA PVC AZUL 32 MM',
                  'REG. DE ESFERA SOLDA PVC AZUL 35 MM', 'REG. DE ESFERA SOLDA PVC AZUL 50.6 MM',
-                 'REG. DE ESFERA SOLDA PVC AZUL 75.4 MM'
-      ]
+                 'REG. DE ESFERA SOLDA PVC AZUL 75.4 MM']
     },
     {
       id: 22,
