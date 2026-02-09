@@ -48,7 +48,7 @@ const CatalogoIrrigacao = () => {
     {
       id: 5,
       nome: "REGISTRO DE ESFERA ROSCA EXTERNA",
-      imagem: "assets/img/registro-esfera-rosca-externa.png",
+      imagem: "assets/img/registro-esfera-rosca-externa.webp",
       descricao: ["Registro esfera de PVC com rosca externa."],
       especificacoes: ['Material: PVC'],
       tamanhos: ['REG. DE ESFERA ROSCA EXTERNA PVC AZUL 3/4"', 'REG. DE ESFERA ROSCA EXTERNA PVC AZUL 1"'],
@@ -56,7 +56,7 @@ const CatalogoIrrigacao = () => {
     {
       id: 6,
       nome: "REGISTRO DE ESFERA ROSCA INTERNA/EXTERNA",
-      imagem: 'assets/img/registro-esfera-rosca-externa_interna.png',
+      imagem: 'assets/img/registro-esfera-rosca-externa_interna.webp',
       descricao: ["Registro esfera de PVC com rosca interna e externa."],
       especificacoes: ['Material: PVC'],
       tamanhos: ['REG. DE ESFERA PVC AZUL ROSCA INT./EXT. 3/4"'],
@@ -172,7 +172,7 @@ const CatalogoIrrigacao = () => {
     {
       id: 21,
       nome: "REGISTRO DE ESFERA PVC SOLDÁVEL",
-      imagem: "assets/img/registro-pvc-soldavel.webp",
+      imagem: "assets/img/registro-pvc-rosca-interna.webp",
       especificacoes: ['Material: PVC'],
       tamanhos: ['REG. DE ESFERA SOLDA PVC AZUL 25 MM', 'REG. DE ESFERA SOLDA PVC AZUL 32 MM',
                  'REG. DE ESFERA SOLDA PVC AZUL 35 MM', 'REG. DE ESFERA SOLDA PVC AZUL 50.6 MM',
