@@ -163,7 +163,7 @@ const Home = () => {
     {
       id: 4,
       nome: "TUBOS RÍGIDOS",
-      imagem: "assets/img/tubo-rigido.png",
+      imagem: "assets/img/tubo-pvc.webp",
       descricao: "Tubos de PVC para sistemas de irrigação, prediais, construções diversas, etc.",
       tamanhos: ["TUBO PVC RÍGIDO PN40 - 35M", "TUBO PVC RÍGIDO PN40 - 50MM", "TUBO PVC RÍGIDO PN40 - 75MM", "TUBO PVC RÍGIDO PN40 - 100MM", "TUBO PVC RÍGIDO PN60 20MM C/ 6M", "TUBO PVC RÍGIDO PN60 25MM C/ 6M", "TUBO PVC RÍGIDO PN60 32MM C/ 6M", "TUBO PVC RÍGIDO PN80 - 50MM", "TUBO PVC RÍGIDO PN80 - 75MM", "TUBO PVC RÍGIDO PN80 - 100MM"],
       cores: ["Azul"],

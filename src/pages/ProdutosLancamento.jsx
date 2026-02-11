@@ -80,15 +80,15 @@ const ProdutosLancamento = () => {
       <section className="hero-lancamento">
         <div className="hero-overlay"></div>
         <div className="hero-conteudo">
-          <span className="hero-badge">Novidades 2026</span>
-          <h1 className="hero-titulo">Exclusividades</h1>
+          <span className="hero-badge">Novidades</span>
+          <h1 className="hero-titulo">Produtos Lançamento</h1>
           <p className="hero-subtitulo">
             Conheça as últimas inovações em sistemas de irrigação com tecnologia de ponta e máxima eficiência
           </p>
           <div className="hero-stats">
             <div className="stat-item">
               <span className="stat-numero">2</span>
-              <span className="stat-texto">Produtos Exclusivos</span>
+              <span className="stat-texto">Lançamentos</span>
             </div>
             <div className="stat-item">
               <span className="stat-numero">100%</span>
@@ -105,7 +105,7 @@ const ProdutosLancamento = () => {
       {/* Seção de Cards de Produtos */}
       <section className="secao-produtos-lancamento">
         <div className="secao-header">
-          <h2>Produtos Exclusivos</h2>
+          <h2>Lançamentos</h2>
           <p>Explore nossa linha de exclusividades com as mais recentes tecnologias do mercado</p>
         </div>
 
@@ -154,7 +154,7 @@ const ProdutosLancamento = () => {
       {/* CTA Final */}
       <section className="cta-lancamento">
         <div className="cta-conteudo">
-          <h3>Interessado em nossas exclusividades?</h3>
+          <h3>Interessado em nossos lançamentos?</h3>
           <p>Entre em contato e saiba mais sobre disponibilidade, preços e condições especiais</p>
           <button onClick={() => navigate('/Contato')} className="btn-cta-principal">Fale Conosco</button>
         </div>
@@ -204,7 +204,12 @@ const ProdutosLancamento = () => {
             </div>
 
             <div className="modal-footer-lancamento">
-              <button className="btn-modal-contato">Solicitar Orçamento</button>
+              <button 
+              onClick={() => window.open('https://wa.me/5587981543414', '_blank')}
+              className="btn-modal-contato"
+              >
+                Solicitar Orçamento
+              </button>
               <button className="btn-modal-secundario" onClick={fecharModal}>
                 Fechar
               </button>
