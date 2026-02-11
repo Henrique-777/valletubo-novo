@@ -477,7 +477,7 @@ const Home = () => {
           </div>
 
           <div className="lancamento-card">
-            <span className="badge-novo">EXCLUSIVO</span>
+            <span className="badge-novo">LANÇAMENTO</span>
             <img 
               src="assets/img/tubo-de-comando.png" 
               alt="Kit Irrigação Completo" 

@@ -41,7 +41,7 @@ const ProdutosLancamento = () => {
       caracteristicas: [
         "TUBO DE COMANDO PARA AUTOMAÇÃO 8MM"
       ],
-      badge: "EXCLUSIVO"
+      badge: "LANÇAMENTO"
     }
   ];
 
